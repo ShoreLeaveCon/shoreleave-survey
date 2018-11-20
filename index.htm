@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--#include virtual="/layout/head-common.txt" -->
+		<title>Fan Survey - Shore Leave 40</title>
+
+		<!--#include virtual="../layout/metaheaders.htm" -->
+		<link rel="canonical" href="https://www.shore-leave.com/survey/" />
+		<style>
+			legend {
+				color: #3D6096;
+				display: block;
+				border: 0;
+				border-top: 1px solid #dddddd;
+				margin-top: 1em;
+				-webkit-margin-before: 1em;
+				-webkit-margin-after: 1em;
+				-webkit-margin-start: 0;
+				-webkit-margin-end: 0;
+			}
+			label {
+				margin-right: 1em;
+				text-align: right;
+			}
+			.line {
+				display: inline-block;
+				width: 100%;
+			}
+		</style>
+
+	</head>
+	<body>
+        <!--#include virtual="../layout/header.htm" -->
+		<!--#include virtual="../layout/navbar.php" -->
+
+		<div id="contents" class="container-fluid col-sm-10">
+		<h1>Fan Survey</h1>
+
+		<p>Dear Fellow Fans,</p>
+		<p>Please answer the questions below to help the Shore Leave committee better understand your fandom.</p>
+		<p>All responses are anonymous.</p>
+
+		<form method="POST" action="/survey/survey.php">
+
+			<fieldset>
+				<legend>What are three Sci-Fi, Fantasy, or related genre TV series which you currently watch?</legend>
+				<span class="line"><label for="CurrentShow1" class="col-xs-4 col-sm-2">Show 1</label> <input id="CurrentShow1" name="CurrentShow1" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+				<span class="line"><label for="CurrentShow2" class="col-xs-4 col-sm-2">Show 2</label> <input id="CurrentShow2" name="CurrentShow2" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+				<span class="line"><label for="CurrentShow3" class="col-xs-4 col-sm-2">Show 3</label> <input id="CurrentShow3" name="CurrentShow3" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+			</fieldset>
+
+			<fieldset>
+				<legend>What are your three all-time favorite TV series and movies in the Sci-Fi, Fantasy, or related genres?</legend>
+				<span class="line"><label for="AllTimeFavoriteShow1" class="col-xs-4 col-sm-2">Show 1</label> <input id="AllTimeFavoriteShow1" name="AllTimeFavoriteShow1" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+				<span class="line"><label for="AllTimeFavoriteShow2" class="col-xs-4 col-sm-2">Show 2</label> <input id="AllTimeFavoriteShow2" name="AllTimeFavoriteShow2" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+				<span class="line"><label for="AllTimeFavoriteShow3" class="col-xs-4 col-sm-2">Show 3</label> <input id="AllTimeFavoriteShow3" name="AllTimeFavoriteShow3" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+			</fieldset>
+
+			<fieldset>
+				<legend>Who are your three favorite actors from the Sci-Fi, Fantasy, and related genres?</legend>
+				<span class="line"><label for="actor1" class="col-xs-4 col-sm-2">Actor 1</label> <input id="actor1" name="actor1" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+				<span class="line"><label for="actor2" class="col-xs-4 col-sm-2">Actor 2</label> <input id="actor2" name="actor2" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+				<span class="line"><label for="actor3" class="col-xs-4 col-sm-2">Actor 3</label> <input id="actor3" name="actor3" type="text" class="col-xs-7 col-sm-9" maxlength="60" /></span>
+			</fieldset>
+
+			<fieldset>
+				<legend>What was the first Shore Leave you attended?</legend>
+				<span class="line"><label for="firstShoreLeave">My First Shore Leave was</label>
+					<select id="firstShoreLeave" name="firstShoreLeave">
+						<option>Choose</option>
+						<option value="40">(I haven't yet)</option>
+						<option value="39">Shore Leave 39</option>
+						<option value="38">Shore Leave 38</option>
+						<option value="37">Shore Leave 37</option>
+						<option value="36">Shore Leave 36</option>
+						<option value="35">Shore Leave 35</option>
+						<option value="34">Shore Leave 34</option>
+						<option value="33">Shore Leave 33</option>
+						<option value="32">Shore Leave 32</option>
+						<option value="31">Shore Leave 31</option>
+						<option value="30">Shore Leave 30</option>
+						<option value="29">Shore Leave 29</option>
+						<option value="28">Shore Leave 28</option>
+						<option value="27">Shore Leave 27</option>
+						<option value="26">Shore Leave 26</option>
+						<option value="25">Shore Leave 25</option>
+						<option value="24">Shore Leave 24</option>
+						<option value="23">Shore Leave 23</option>
+						<option value="22">Shore Leave 22</option>
+						<option value="21">Shore Leave 21</option>
+						<option value="20">Shore Leave 20</option>
+						<option value="19">Shore Leave 19</option>
+						<option value="18">Shore Leave 18</option>
+						<option value="17">Shore Leave 17</option>
+						<option value="16">Shore Leave 16</option>
+						<option value="15">Shore Leave 15</option>
+						<option value="14">Shore Leave 14</option>
+						<option value="13">Shore Leave 13</option>
+						<option value="12">Shore Leave 12</option>
+						<option value="11">Shore Leave 11</option>
+						<option value="10">Shore Leave 10</option>
+						<option value="9">Shore Leave 9</option>
+						<option value="8">Shore Leave 8</option>
+						<option value="7">Shore Leave 7</option>
+						<option value="6">Shore Leave 6</option>
+						<option value="5">Shore Leave 5</option>
+						<option value="4">Shore Leave 4</option>
+						<option value="3">Shore Leave 3</option>
+						<option value="2">Shore Leave 2</option>
+						<option value="1">Shore Leave 1</option>
+					</select>
+				</span>
+			</fieldset>
+
+			<input type="submit" value="Submit" />
+
+		</form>
+
+
+		<p>
+			<a href="/contacts/information_list.htm">Sign Up for our mailing list</a>.</p>
+
+
+		</div>
+
+    <!--#include virtual="../layout/footer.htm" -->
+	</body>
+</html>
